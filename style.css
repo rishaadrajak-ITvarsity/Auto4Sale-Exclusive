@@ -288,6 +288,11 @@ a.item-box {
     width: 100%;
 }
 
+.item-box img:hover {
+    transition-duration: 300ms;
+    transform: scale(1.2);
+}
+
 .item-box p.price {
     background-color: antiquewhite;
     color:rgb(29, 29, 29);
